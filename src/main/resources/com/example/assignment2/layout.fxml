@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2.Controller">
+   <center>
+      <GridPane prefHeight="242.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="1">
+               <children>
+                  <Button fx:id="btnB" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="B">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblB" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </GridPane.margin>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="25.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnU" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="U">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblU" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnT" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="T">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblT" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnS" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="S">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblS" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnR" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="R">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblR" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnQ" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="Q">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblQ" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnN" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="N">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblN" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnM" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="27.0" text="M">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblM" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnL" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="L">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblL" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnK" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="K">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblK" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="6">
+               <children>
+                  <Button fx:id="btnG" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="G">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblG" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="5">
+               <children>
+                  <Button fx:id="btnF" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="F">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblF" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="4">
+               <children>
+                  <Button fx:id="btnE" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="E">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblE" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="3">
+               <children>
+                  <Button fx:id="btnD" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="D">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblD" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnJ" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="J">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblJ" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btnW" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="28.0" text="W">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblW" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnP" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="P">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblP" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnI" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="I">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblI" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btnV" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="V">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblV" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnO" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="O">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblO" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="btnH" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="H">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblH" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="10.0" prefWidth="57.0" GridPane.columnIndex="2">
+               <children>
+                  <Button fx:id="btnC" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="C">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblC" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="25.0">
+               <children>
+                  <Button fx:id="btnA" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="A">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblA" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="25.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btnY" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="Y">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblY" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="25.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btnX" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="X">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblX" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+            <VBox prefHeight="25.0" prefWidth="25.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <children>
+                  <Button fx:id="btnZ" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" text="Z">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Label fx:id="lblZ" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="26.0" text="2" />
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="90.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="txtPreviousWords" editable="false" layoutX="103.0" layoutY="13.0" prefHeight="63.0" prefWidth="378.0" promptText="Previous Words" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+      <Pane prefHeight="194.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="194.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+   <top>
+      <AnchorPane prefHeight="130.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtWord" layoutX="48.0" layoutY="14.0" promptText="Enter Word" />
+            <Label layoutX="183.0" layoutY="84.0" text="Total Point:" />
+            <TextField fx:id="txtTotal" editable="false" layoutX="265.0" layoutY="80.0" />
+            <Button fx:id="btnSubmit" layoutX="429.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit Word" />
+            <Label fx:id="lblErr" layoutX="48.0" layoutY="48.0" text="Error Message will Appear here" textFill="#d50808" />
+            <Label fx:id="lblCount" layoutX="300.0" layoutY="48.0" textFill="#110fb4" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
